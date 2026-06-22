@@ -62,3 +62,13 @@ my_none_var = None
 print('None:', my_none_var) # None: None
 #None: A special value that represents the absence of a value.
 
+developer = 'Kevin'
+print(type(developer)) # class <str>
+
+account_balance = '12'
+
+isinstance(account_balance, int) # False
+#checks, if a variable has a specific type
+
+account_balance = 12
+print(isinstance(account_balance, (int, float))) #True
