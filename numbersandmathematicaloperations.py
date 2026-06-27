@@ -128,4 +128,18 @@ print(lala)#9
 lala *= 9
 print(lala)#81
 lala /= 9
-print(lala)
+print(lala)#9
+lala //=2
+print(lala)#4
+lala %= 3
+print(lala)#1
+lala += 2
+lala **= 3
+print(lala)#8
+
+
+greet = 'Hello'
+greet += ' World'
+print(greet)#Hello World
+greet *= 3
+print(greet)
